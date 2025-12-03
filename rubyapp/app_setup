@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Salir si ocurre algún error
+set -e
+
+# Directorio de la aplicación
+APP_DIR="/root/Webapps/rubyapp"
+
+# Cambiar al directorio de la app
+cd "$APP_DIR"
+
+# Ejecutar la app Ruby
+ruby rubyapp.rb
